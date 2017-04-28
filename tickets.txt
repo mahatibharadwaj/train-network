@@ -1,0 +1,16 @@
+huform_data['fro'] form_data['to'] form_data['doj']
+
+
+MATCH (st1:Station)<-[:intermediate]-(t1:Train)-[:intermediate]->(st2:Station)WHERE st1.name="secunderabad" AND st2.name="vijayawada" RETURN t1.name
+
+
+for i in a[0][0]:
+        #	print i
+        	if (week_map[day_value]==i)and(length<5):
+        		self.app.html=unicode("available")
+         	elif(((form_data['year']<2017)and(form_data['month']<4)) and form_data['day']<24): 
+         		self.app.html=unicode("not available")
+         	else:
+         		self.app.html=unicode("not available")
+
+

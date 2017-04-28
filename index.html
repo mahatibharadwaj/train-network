@@ -1,0 +1,60 @@
+<html>
+  <body>
+   	
+   	<p>
+   		<form action="BackEnd.generate_trains" id="form" data-bind="true">
+    		<input type="submit" value="Click here to display all trains" id="form_submit1">
+		</form>
+   	</p>
+   	<div>
+   	<p>
+   		<form action="Ticket.generate_tickets" id="form" data-bind="true">
+   			Source:<input type="text" id="form_input1" name="fro">
+    		Destination:<input type="text" id="form_input2" name="to">
+    		day of the month:<input type="text" id="form_input3" name="day">
+    		month:<input type="text" id="form_input4" name="month">
+    		year:<input type="text" id="form_input5" name="year">
+    		train_name:<input type="text" id="form_input6" name="name">
+    		<input type="submit" value="Click here to book tickets" id="form_submit1">
+		</form>
+   	</p>
+   	</div>
+
+   	<div>
+   	<p>
+   		<form action="Ticket.check_trains" id="form1" data-bind="true">
+    		Source:<input type="text" id="form_input1" name="source">
+    		Destination:<input type="text" id="form_input2" name="destination">
+    		<input type="submit" value="Trains between intermediate stations" id="form_submit98">
+		</form>
+	</p>
+
+	<p>
+   		<form action="Ticket.ticket_availability" id="form9" data-bind="true">
+    		train:<input type="text" id="form_input100" name="name">
+    		day of the month:<input type="text" id="form_input200" name="day">
+    		month:<input type="text" id="form_input300" name="month">
+    		year:<input type="text" id="form_input400" name="year">
+    		<input type="submit" value="ticketsavailability" id="form_submit100">
+		</form>
+	</p>
+
+	</div>
+   	<p>
+	<form action="BackEnd.find_trains" id="form1" data-bind="true">
+    		Source:<input type="text" id="form_input1" name="name1">
+    		Destination:<input type="text" id="form_input2" name="name2">
+    		<input type="submit" value="Trains between stations" id="form_submit1">
+	</form>
+	</p>
+
+	<p>
+	<form action="BackEnd.show_train_delay" id="form2" data-bind="true">
+    		Train name:<input type="text" id="form_input3" name="train">
+    		<input type="submit" value="Enquire train delay" id="form_submit1">
+	</form>
+   	</p>
+  </body>
+</html>
+                    
+                
